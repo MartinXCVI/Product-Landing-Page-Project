@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header id="header">
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#about-us-section">About Us</a></li>
+        <li><a class="nav-link" href="#production-section">Production</a></li>
+        <li><a class="nav-link" href="#items-section">Items</a></li>
+      </ul>
+    </nav>
+    <figure class="logo-figure">
+      <img src="https://i.imgur.com/f0HeqPs.png" alt="logo of Caffè Argentino's coffee company" id="header-img">
+    </figure>
+  </header>
+  <main>
+    <section id="about-us-section">
+      <h1>About Us</h1>
+      <article class="article">
+        <figure class="article-figure">
+          <img src="https://i.imgur.com/GIhcuUT.jpg" alt="coffee field" id="coffee-field">
+        </figure>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.</p>
+      </article>
+    </section>
+    <div class="division"></div>
+    <section id="production-section">
+      <h2>Production</h2>
+      <article class="article2">
+        <iframe id="video" src="https://www.youtube.com/embed/yagagM7SlWs" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </article>
+    </section>
+    <div class="division"></div>
+    <section id="items-section">
+      <h2>Items</h2>
+      <article class="items-article">
+        <h3>Arabica</h3>
+        <figure class="items-figure">
+          <img src="https://i.imgur.com/fLIQ0yd.jpg" alt="arabica coffee beans on a table, and in a mug"
+            class="items-img">
+          <p class="items-text arabica-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est laborum.</p>
+        </figure>
+        <h3>Robusta</h3>
+        <figure class="items-figure">
+          <img src="https://i.imgur.com/46jtv7Q.jpg" alt="robusta coffee beans dropped on a table" class="items-img">
+          <p class="items-text robusta-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </figure>
+        <h3>Liberica</h3>
+        <figure class="items-figure">
+          <img src="https://i.imgur.com/Tg7SHaO.jpg" alt="a mug of hot liberica coffee and coffee beans all around"
+            class="items-img">
+          <p class="items-text liberica-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </figure>
+      </article>
+      <div class="division"></div>
+      <article class="form-article">
+      <form action="https://www.freecodecamp.com/email-submit" id="form" method="post">
+        <fieldset>
+          <legend>Indicate your purchase:</legend>
+          <label for="myname">Name:
+            <input type="text" name="name" id="myname" placeholder="Enter your name here" required>
+          </label>
+          <label for="myaddress">Address: 
+            <input type="text" name="address" id="myaddress" placeholder="Enter your address here" required>
+          </label>
+          <label for="email">Email:
+            <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+          </label>
+          <label for="product1" id="mycoffee">
+            <input type="checkbox" name="product-arabica"> Arabica Coffee Bag (1kg)
+          </label>
+          <label for="product-robusta" id="mycoffee">
+            <input type="checkbox" name="product-robusta"> Robusta Coffee Bag (1kg)
+          </label>
+          <label for="product-liberica" id="mycoffee">
+            <input type="checkbox" name="product-liberica"> Liberica Coffee Bag (1kg)
+          </label>
+          <label for="my-coffee-bag">Specify the number of bags per kilo:
+            <select name="coffee-bag" id="my-coffee-bag">
+              <option value="1">1 bag</option>
+              <option value="2">2 bags</option>
+              <option value="3">3bags</option>
+              <option value="4">4 bags</option>
+              <option value="5">5 bags</option>
+              <option value="6">6 bags</option>
+              <option value="7">7 bags</option>
+              <option value="8">8 bags</option>
+              <option value="9">9 bags</option>
+              <option value="10">10 bags</option>
+              <option value="+10">More than 10 bags</option>
+            </select>
+          </label>
+          <label for="text-area">If you need to specify something, tell us here:
+            <textarea id="text-area" rows="5" cols="35" name="Comment" placeholder="Simply write your request here, please..."></textarea>
+          </label>
+        </fieldset>
+        <input type="submit" id="submit" value="Confirm">
+      </form>
+    </article>
+    </section>
+    <footer>
+      <p class="copyright-text">Copyright 2022, Coffè Argentino.</p>
+    </footer>
+
+  </main>
+</body>
+
+</html>
